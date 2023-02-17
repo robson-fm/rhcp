@@ -1,0 +1,99 @@
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
+
+body{
+    background-color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #e22a2a;
+    border: 1.8px solid #1C1C1C;
+    border-radius: 100px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ECF4FF;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #ECF4FF;
+    border: 1px solid black;
+    border-radius: 100px;
+    box-shadow: inset 0px 0px 0px 0px #F0F0F0;
+    margin: 15px 0px;
+  }
+
+h1{
+    text-align: center;
+    color:brown;
+    padding-bottom: 5px;
+    font-size: 50px;
+}
+
+div{
+    display: flex;
+    /*flex-direction: row;*/
+    padding-bottom: 25px;
+    justify-content: space-around;
+
+}
+
+details{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+h2 , a{
+    display: inline;
+    margin: 20px;
+    padding: 30px;
+    color: brown;
+    
+}
+
+header{
+    text-align: center;
+    padding-bottom: 25px;
+    
+}
+
+.jupiter{
+    color: midnightblue;
+}
+
+.mars{
+    color:brown;
+}
+
+li{
+list-style: none;
+margin: 5px;;
+padding:0;
+}
+
+ol{
+opacity:0.7;
+background-color:rgb(233, 220, 220);
+margin: 0;
+padding: 0;
+border-radius: 15px;
+}
+
+footer{
+     display: flex;
+     justify-content: center;
+}
